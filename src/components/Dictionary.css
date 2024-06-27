@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.wrapper{
+    background-color: aqua;
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 60px;
+    height: fit-content;
+    gap: 20px;
+    border-radius: 5px;
+}
+
+.wrapper h1{
+    font-family: 'poppins', sans-serif;
+    color: rgb(52, 111, 189);
+}
+
+.sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input{
+    width: 50%;
+    border: none;
+    height: 50px;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+button{
+    width: 90px;
+    height: fit-content;
+    border: none;
+    background-color: rgb(52, 111, 189);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
